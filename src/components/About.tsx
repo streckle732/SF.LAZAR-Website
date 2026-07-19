@@ -7,7 +7,7 @@ import ScrollReveal from './ScrollReveal';
 function AnimatedCounter({ value, duration = 2, suffix = '' }: { value: number; duration?: number; suffix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: '-20px' });
 
   useEffect(() => {
     if (!isInView) return;
