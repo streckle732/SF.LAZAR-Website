@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-gold: #C19A6B;
+  --color-sand: #E0D7C6;
+  --color-dark-bg: #080808;
+  --color-warm-brown: #4A3728;
+}
+
+body {
+  background-color: #080808;
+  color: #E0D7C6;
+  font-family: var(--font-serif);
+  overflow-x: hidden;
+}
+
+/* Custom radial gradients and subtle immersive effects */
+.immersive-glow-1 {
+  background: radial-gradient(circle at center, rgba(193, 154, 107, 0.08) 0%, transparent 70%);
+}
+
+.immersive-glow-2 {
+  background: radial-gradient(circle at center, rgba(74, 55, 40, 0.18) 0%, transparent 75%);
+}
+
+.immersive-border {
+  border-color: rgba(193, 154, 107, 0.15);
+}
+
+.immersive-border-active {
+  border-color: rgba(193, 154, 107, 0.6);
+}
+
+/* Smooth custom scrollbar for luxury presentation */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(193, 154, 107, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(193, 154, 107, 0.4);
+}
+

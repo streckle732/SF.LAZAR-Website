@@ -1,0 +1,6 @@
+{
+  "name": "Sf. Lazar — Servicii Funerare",
+  "description": "S.C. SF. LAZAR SRL oferă servicii funerare complete în județul Iași. Transparență totală, respect profund și asistență non-stop pentru familiile îndoliate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
